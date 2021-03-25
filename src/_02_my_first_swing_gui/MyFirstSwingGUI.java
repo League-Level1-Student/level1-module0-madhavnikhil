@@ -35,13 +35,14 @@ Window.add(Dumbledore);
 		// 9. Add the JLabel object to the JPanel
 Dumbledore.add(Hagrid);
 		// 10. Pack your JFrame
-
+Window.pack();
 		// 11. Run your program again. Do you see your message?
 
 		// 12. Use your JLabel to call setIcon(loadImage())
+Hagrid.setIcon(loadImage());  
 
 		// 13. Re-pack the JFrame object
-
+Window.pack();
 		// 14. Run the program one more time. Do you see the image?
 
 	}
