@@ -34,9 +34,9 @@ public class PhotoQuiz {
 		// 4. add the image to the quiz window
 		quizWindow.add(egami);
 		// 5. call the pack() method on the quiz window
-
+        quizWindow.pack();
 		// 6. ask a question that relates to the image
-
+  
 		// 7. print "CORRECT" if the user gave the right answer
 
 		// 8. print "INCORRECT" if the answer is wrong
