@@ -33,9 +33,9 @@ JFrame Black = new JFrame();
 		// set its default close operation to JFrame.EXIT_ON_CLOSE
 Black.setVisible(true);
 		// 3. Set the size of the frame
-Black.setSize(50);
+Black.setSize(500, 500);
 		// 4. Set the title of the frame
-
+Black.setTitle("Harry Potter");
 		// 5. Make a JPanel variable and initialize it using "new JPanel().
 
 		// 6. Add the panel to the frame. (The panel is invisible.)
