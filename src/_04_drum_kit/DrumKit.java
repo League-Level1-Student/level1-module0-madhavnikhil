@@ -37,9 +37,9 @@ Black.setSize(500, 500);
 		// 4. Set the title of the frame
 Black.setTitle("Harry Potter");
 		// 5. Make a JPanel variable and initialize it using "new JPanel().
-
+JPanel Dumbledore = new JPanel();
 		// 6. Add the panel to the frame. (The panel is invisible.)
-
+Black.add(Dumbledore);
 		// 7. Download an image of a drum from the Internet. Drop it into your
 		// Eclipse project under "recipe package(drum_kit)".
 
