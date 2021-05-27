@@ -44,12 +44,12 @@ Black.add(Dumbledore);
 		// Eclipse project under "recipe package(drum_kit)".
 
 		// 8. Put the name of your image file in a String variable.
-
+String Hagrid = "cymbal.jpg";
 		// 9. Edit the next line to use your String variable
-		// drumLabelWithImage = createLabelImage(drumImageString);
+		 drumLabelWithImage = createLabelImage(Hagrid);
 
 		// 10. Add the image to the panel
-
+Dumbledore.add(drumLabelWithImage)
 		// 11. Set the layout of the panel to "new GridLayout()"
 
 		// 12. call the pack() method on the frame. Run your program. Do you see
