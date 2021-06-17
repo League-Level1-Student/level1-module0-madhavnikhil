@@ -55,11 +55,13 @@ int Bellatrix = 0;
 		// 2. Set the size of the window in the initializeGui() method 
 window.setSize(500, 500);
 		// 4. Ask the user who this person is and store their answer
-		String guess = JOptionPane.showInputDialog("who is this?");
+for (int i = 0; i < 4; i++) {
+	
+String guess = JOptionPane.showInputDialog("who is this?");
 
 		// 5. Check their answer. If they guessed correctly:
 		// -- Tell them they are right and increase the score by 1
-if (guess.equals("Arnold")) {
+if (guess.equalsIgnoreCase("Arnold")) {
 JOptionPane.showMessageDialog(null, "You are correct");
 }
 		// 6. Otherwise:
@@ -68,7 +70,7 @@ else
 JOptionPane.showMessageDialog(null, "It is wrong.");
 		// 7. Use the showNextImage() method below to get the next image
 		showNextImage();
-
+}
 		// 8. .... repeat 4-7 for all your images.....
 
 		// 9. Show them their current score
